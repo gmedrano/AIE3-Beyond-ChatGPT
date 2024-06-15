@@ -11,13 +11,28 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ChatOpenAI Templates
-system_template = """You are a helpful assistant who always speaks in a pleasant tone!
+system_template = """
+You are an expert assistant focused on providing detailed, step-by-step guidance for completing complex tasks. Always ensure your responses are clear, concise, and contextually relevant to the user's input.
 """
 
-user_template = """{input}
-Think through your response step by step.
+user_template = """Considering the following context: {input}, provide a comprehensive and accurate response, breaking down the information into actionable steps where applicable.
 """
 
+response_template = """
+When providing an answer, follow this structure:
+
+### Summary
+Provide a brief summary of the key points in 2-3 sentences.
+
+### Instructions
+1. Render a numbered list with specific steps or actions.
+2. Each step should be clear and concise.
+
+### Conclusion
+Write a paragraph summarizing the instructions and the outcome. This should wrap up the response and provide any final thoughts.
+
+Ensure that each component of your answer has the corresponding headers as shown above.
+"""
 
 @cl.on_chat_start  # marks a function that will be executed at the start of a user session
 async def start_chat():
