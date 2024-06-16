@@ -1,0 +1,112 @@
+html {
+    background: rgb(59,73,87);
+    background: linear-gradient(45deg, rgb(12, 4, 34) 0%, rgb(52, 7, 114) 100%);
+    padding: 4rem !important;
+}
+
+body {
+    background-color: pink;
+}
+
+.css-144sd5e {
+    width: 100% !important;
+    height: 88vh !important;
+}
+
+.css-ugcix4, .css-1ofqig9, .css-144sd5e, #root, body {
+    border-radius: 30px;
+}
+
+.css-1ofqig9 {
+    background: rgb(46,51,57) !important;
+    background: linear-gradient(45deg, rgb(56 14 119) 0%, rgb(145 62 186) 100%) !important;
+    border-top: 1px solid rgb(255 255 255 / 30%) !important;
+    border-right: 1px solid rgb(255 255 255 / 30%) !important;
+    box-shadow: 0 5px 20px 0 rgb(8 2 23 / 60%) !important;
+}
+
+.css-qsb7md {
+    border-radius: 30px 30px 0 0;
+}
+
+.css-17anmg8 {
+    border-radius: 0 0 30px 30px;
+}
+
+.css-1798y75 {
+    background-color: transparent;
+}
+
+.css-qsb7md {
+    background-color: transparent !important;
+    border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.css-1s3oi5q {
+    background-color: transparent !important;
+    color: white !important;
+}
+
+.css-19mvntf, .css-17z68sn {
+    color: yellow !important;
+}
+
+.css-1hwjv37 p {
+    font-size: 2rem !important;
+    font-weight: 600 !important;
+}
+
+.css-1hwjv37 {
+    font-size: 2rem !important;
+    line-height: 2.4rem !important;
+}
+
+.css-1ruedog {
+    border-color: rgba(255, 255, 0, 0.587) !important;
+    color: yellow !important;
+}
+
+.css-2n4y0m {
+    display: none !important;
+}
+
+.css-sdz2z {
+    text-align: center !important;
+    color: white !important;
+}
+
+.css-sdz2z img, .markdown-body img {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.css-sdz2z h1, .markdown-body h1 {
+    padding-bottom: 2rem !important;
+    font-size: 3rem !important;
+}
+
+.css-sdz2z h4, .markdown-body h4 {
+    padding: 3vh 0 0 0 !important;
+}
+
+.css-1j8qrh1 {
+    opacity: .5;
+}
+
+.css-1mzerio {
+    display: none !important;
+}
+
+.css-12hxhao img {
+    filter: brightness(0) invert(1) !important;
+}
+
+.css-1705j0v p {
+    color: white !important;
+}
+
+.css-1705j0v img {
+    filter: brightness(0) invert(1) !important;
+}
