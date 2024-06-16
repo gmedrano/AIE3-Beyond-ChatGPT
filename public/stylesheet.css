@@ -1,7 +1,7 @@
 html {
     background: rgb(59,73,87);
     background: linear-gradient(45deg, rgb(12, 4, 34) 0%, rgb(52, 7, 114) 100%);
-    padding: 4rem !important;
+    padding: 4rem 8rem !important;
 }
 
 body {
