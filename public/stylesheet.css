@@ -1,7 +1,6 @@
 html {
     background: rgb(59,73,87);
     background: linear-gradient(45deg, rgb(12, 4, 34) 0%, rgb(52, 7, 114) 100%);
-    padding: 4rem 8rem !important;
 }
 
 body {
@@ -110,3 +109,32 @@ body {
 .css-1705j0v img {
     filter: brightness(0) invert(1) !important;
 }
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+    .css-sdz2z h1, .markdown-body h1 {
+        font-size: 1.5rem !important;
+    }
+    .css-ugcix4, .css-1ofqig9, .css-144sd5e, #root, body {
+        border-radius: 0 !important;
+    }
+    
+}
+
+/* Media query for tablet devices */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    html {
+        padding: 2rem 4rem !important;
+    }
+}
+
+/* Media query for desktop devices */
+@media only screen and (min-width: 1025px) {
+    html {
+        padding: 4rem 8rem !important;
+    }
+}
+
+/* This Chainlit app was created following instructions from [this repository!](https://github.com/AI-Maker-Space/Beyond-ChatGPT) */
+/* You are an expert assistant focused on providing detailed, step-by-step guidance for completing complex tasks. Always ensure your responses are clear, concise, and contextually relevant to the user's input. */
+/* Considering the following context: {input}, provide a comprehensive and accurate response, breaking down the information into actionable steps where applicable. */
