@@ -49,7 +49,7 @@ Ensure that each component of your answer has the corresponding headers as shown
 @cl.on_chat_start  # marks a function that will be executed at the start of a user session
 async def start_chat():
     settings = {
-        "model": "gpt-3.5-turbo",
+        "model": "gpt-4o",
         "temperature": 0,
         "max_tokens": 500,
         "top_p": 1,
@@ -80,6 +80,11 @@ async def main(message: cl.Message):
                 role="user",
                 template=user_template,
                 formatted=user_template.format(input=message.content),
+            ),
+            PromptMessage(
+                role="response",
+                template=response_template,
+                formatted=response_template,
             ),
         ],
         inputs={"input": message.content},
