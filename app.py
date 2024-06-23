@@ -28,9 +28,7 @@ Deliver advice and solutions in a clear, practical, and easily implementable man
 
 user_template = """
 Considering the following context: {input}, provide a comprehensive and accurate response, breaking down the information into actionable steps where applicable.
-"""
 
-response_template = """
 When providing an answer, follow this structure:
 
 ### Summary
@@ -80,11 +78,6 @@ async def main(message: cl.Message):
                 role="user",
                 template=user_template,
                 formatted=user_template.format(input=message.content),
-            ),
-            PromptMessage(
-                role="response",
-                template=response_template,
-                formatted=response_template,
             ),
         ],
         inputs={"input": message.content},

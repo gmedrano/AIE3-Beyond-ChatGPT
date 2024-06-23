@@ -110,6 +110,18 @@ body {
     filter: brightness(0) invert(1) !important;
 }
 
+.css-5kjw2l {
+    background-color: color(srgb 0.0977 0.1 0.086) !important;
+}
+
+code {
+    color: black;
+}
+
+li {
+    margin: 10px;
+}
+
 /* Media query for mobile devices */
 @media only screen and (max-width: 768px) {
     .css-sdz2z h1, .markdown-body h1 {
